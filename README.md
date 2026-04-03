@@ -38,7 +38,7 @@ Each level addresses a specific failure of the previous one:
 
 ## Results
 
-### Figure 1 — VaR / CVaR Analysis
+###  1 — VaR / CVaR Analysis
 
 ![VaR/CVaR Summary](var_cvar_summary.png)
 
@@ -69,7 +69,7 @@ This 4-panel figure summarizes static risk model results:
 - CVaR gap is where fat tails reveal themselves: Parametric $1,796 vs Student-t $2,529
 - Rolling VaR doubled during the 2022 rate hike period
 
-### Figure 2 — GARCH Risk Analysis
+###  2 — GARCH Risk Analysis
 
 ![GARCH Summary](garch_summary.png)
 
@@ -107,7 +107,7 @@ Skewed-t parameters: eta=7.65 (fat tails), lambda=-0.104 (negative skew)
 - 2025 spike to 2.9% was the highest in the entire sample — exceeded 2022 levels
 - Skewed-t wins AIC/BIC by ~50 points over normal GARCH
 
-### Figure 3 — GARCH vs LSTM VaR Comparison
+###  3 — GARCH vs LSTM VaR Comparison
 
 ![LSTM vs GARCH](lstm_vs_garch.png)
 
